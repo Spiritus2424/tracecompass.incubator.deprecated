@@ -1,0 +1,30 @@
+# Dockerfile
+.devcontainer/
+dockerfiles/
+
+# compiled output
+**/target/
+workspace/
+**/bin/
+*/.settings/org.sonar.ide.eclipse.core.prefs
+.polyglot.build.properties
+.tycho-consumer-pom.xml
+
+
+# Git
+.git*
+!.git/
+
+# Markdown file
+*.md
+
+
+# IDEs and editors
+
+
+# IDE - VSCode
+.vscode/*
+.history/*
+
+# System Files
+.DS_Store
